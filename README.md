@@ -103,6 +103,21 @@ The repository is set up for the preview on GitHub Pages
 and shows a "for testing only" notice; the platform will refuse its tokens.
 Replace it with the real key before launch (see below).
 
+The site itself is on Cloudflare Pages since 20 November 2026:
+
+- Address: `https://quickappraiser.pages.dev` (project `quickappraiser`)
+- Turnstile widget "QuickAppraiser website", site key
+  `0x4AAAAAAGKmTyskjkA4kMYR`, for the hostname `quickappraiser.pages.dev`.
+  Its secret key is in the Cloudflare dashboard under **Turnstile**.
+- It was uploaded from a computer, so a push to `main` does not publish it.
+  To publish again, in PowerShell:
+
+```powershell
+$env:SITE_URL='https://quickappraiser.pages.dev'; $env:BASE_PATH='/'; $env:TURNSTILE_SITE_KEY='0x4AAAAAAGKmTyskjkA4kMYR'
+node scripts/build.mjs; node scripts/check.mjs
+npx wrangler pages deploy dist --project-name quickappraiser --branch main
+```
+
 ## Cloudflare Turnstile
 
 1. In the Cloudflare dashboard, open **Turnstile → Add widget**.

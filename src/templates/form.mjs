@@ -48,6 +48,7 @@ export function requestForm(ctx, { headingLevel = 2 } = {}) {
     data-lang="${lang}"
     data-email="${cfg.contactEmail}">
     <p class="form-intro">${f.intro}</p>
+    <noscript><p class="form-alert">${fill(f.noscript, { email: html`<a href="mailto:${cfg.contactEmail}">${cfg.contactEmail}</a>` })}</p></noscript>
     <div class="form-alert" data-form-alert role="alert" tabindex="-1"></div>
     <div class="form-grid">
       ${textField(f, 'firm_name', { max: 200, autocomplete: 'organization' })}

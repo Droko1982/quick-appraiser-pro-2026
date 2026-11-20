@@ -56,7 +56,7 @@ A few strings contain a token in braces that the site fills in. Keep the token:
 | Token | Where | Replaced by |
 |---|---|---|
 | `{privacy}` | `form.consent` | the link to the Privacy page (its text is `form.consentLink`) |
-| `{email}` | `form.server.unavailable` | the contact email, as a link |
+| `{email}` | `form.server.unavailable`, `form.noscript` | the contact email, as a link |
 | `{count}` `{max}` | `form.charCount` | the message length counter |
 
 Other things you may want to change:

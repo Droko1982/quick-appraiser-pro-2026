@@ -439,6 +439,12 @@
     waitTimer = window.setTimeout(function () {
       stopWaiting();
       setBusy(false);
+      // The challenge script never arrived (blocked or offline): waiting
+      // longer will not help, so point to the e-mail address instead.
+      if (!window.turnstile) {
+        showAlert(unavailableMessage());
+        return;
+      }
       var waitText = i18n.errors.turnstile.required;
       setError('turnstile', waitText);
       showAlert(waitText);

@@ -364,7 +364,8 @@
       "team_size": "Appraisers, inspectors and office staff.",
       "message": "For example, the platform you use today."
     },
-    "provincePrompt": "Choose a province or territory",
+    "provincePrompt": "Province or territory",
+    "noscript": "This form needs JavaScript. If it is turned off in your browser, please write to {email}.",
     "consent": "I agree to be contacted about QuickAppraiser and accept the {privacy}.",
     "consentLink": "Privacy Policy",
     "newTab": "opens in a new tab",

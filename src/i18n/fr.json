@@ -364,7 +364,8 @@
       "team_size": "Évaluateurs, inspecteurs et personnel de bureau.",
       "message": "Par exemple, la plateforme que vous utilisez aujourd’hui."
     },
-    "provincePrompt": "Choisissez une province ou un territoire",
+    "provincePrompt": "Province ou territoire",
+    "noscript": "Ce formulaire a besoin de JavaScript. S’il est désactivé dans votre navigateur, veuillez écrire à {email}.",
     "consent": "J’accepte qu’on communique avec moi au sujet de QuickAppraiser et j’accepte la {privacy}.",
     "consentLink": "Politique de confidentialité",
     "newTab": "s’ouvre dans un nouvel onglet",

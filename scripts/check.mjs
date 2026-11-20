@@ -158,6 +158,15 @@ for (const file of htmlFiles) {
   }
 }
 
+// The Turnstile test key always passes and the platform refuses its tokens:
+// fine on the preview, never on the real site.
+const siteHost = new URL(process.env.SITE_URL || cfg.siteUrl).hostname;
+const siteKey = process.env.TURNSTILE_SITE_KEY || cfg.turnstileSiteKey || '';
+const isPreview = siteHost === 'localhost' || siteHost.endsWith('.github.io');
+if (!isPreview && /^[123]x0000/.test(siteKey)) {
+  problems.push(`the site is built for ${siteHost} with the Turnstile TEST key: set TURNSTILE_SITE_KEY to the real site key`);
+}
+
 for (const required of ['index.html', '404.html', 'sitemap.xml', 'robots.txt', '_headers', 'og-en.png', 'og-fr.png', 'favicon.ico']) {
   if (!(await exists(path.join(DIST, required)))) problems.push(`missing ${required}`);
 }

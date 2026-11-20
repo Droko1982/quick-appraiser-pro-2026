@@ -37,6 +37,26 @@ async function loadConfig() {
   cfg.siteUrl = cfg.siteUrl.replace(/\/+$/, '');
   cfg.appUrl = cfg.appUrl.replace(/\/+$/, '');
   cfg.basePath = `/${cfg.basePath.replace(/^\/+|\/+$/g, '')}/`.replace(/\/{2,}/g, '/');
+  // A wrong value here breaks every link of the site without any other sign.
+  // Git Bash on Windows, for one, rewrites BASE_PATH=/ into the path of its
+  // own folder ("C:/Program Files/Git/").
+  if (!/^\/([A-Za-z0-9._~-]+\/)*$/.test(cfg.basePath)) {
+    throw new Error(
+      `BASE_PATH is not a folder of the site: "${cfg.basePath}".\n` +
+        '  In Git Bash on Windows, put MSYS_NO_PATHCONV=1 before the command, or use PowerShell.'
+    );
+  }
+  for (const [name, value] of [['SITE_URL', cfg.siteUrl], ['APP_URL', cfg.appUrl]]) {
+    let url;
+    try {
+      url = new URL(value);
+    } catch {
+      throw new Error(`${name} is not an address: "${value}"`);
+    }
+    if (!/^https?:$/.test(url.protocol) || url.pathname !== '/' || url.search || url.hash) {
+      throw new Error(`${name} must be scheme and host only, for example https://www.example.ca (got "${value}")`);
+    }
+  }
   cfg.signInUrl = `${cfg.appUrl}${cfg.signInPath}`;
   cfg.intakeUrl = `${cfg.appUrl}${cfg.intakePath}`;
 

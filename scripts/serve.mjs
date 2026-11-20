@@ -65,7 +65,7 @@ async function resolveFile(rel) {
     if (s.isDirectory()) {
       const index = path.join(target, 'index.html');
       await stat(index);
-      return { file: index, redirect: !rel.endsWith('/') };
+      return { file: index, redirect: rel !== '' && !rel.endsWith('/') };
     }
     return { file: target };
   } catch {

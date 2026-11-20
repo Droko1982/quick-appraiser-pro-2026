@@ -150,6 +150,12 @@ SITE_URL=https://quickappraiser.pages.dev BASE_PATH=/ TURNSTILE_SITE_KEY=0x… n
 npx wrangler pages deploy dist --project-name quickappraiser-site
 ```
 
+On Windows, Git Bash rewrites `BASE_PATH=/` into the path of its own folder.
+Put `MSYS_NO_PATHCONV=1` before the command, or use PowerShell
+(`$env:BASE_PATH='/'`). The build stops if the value is not a folder of the
+site, and the check stops if a site that is not the preview still has the
+Turnstile test key.
+
 ### Register the site on the platform
 
 The platform only accepts the form from addresses it knows (CORS). Until the

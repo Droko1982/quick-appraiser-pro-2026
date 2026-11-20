@@ -1,0 +1,11 @@
+{
+  "siteUrl": "https://droko1982.github.io",
+  "basePath": "/quick-appraiser-pro-2026/",
+  "appUrl": "https://web-production-bbad4.up.railway.app",
+  "signInPath": "/login/",
+  "intakePath": "/intake/firms/",
+  "contactEmail": "quickappraisalpro@gmail.com",
+  "turnstileSiteKey": "1x00000000000000000000AA",
+  "termsVersion": "2026-11",
+  "author": "Dr. Mauricio Rodríguez Herrera"
+}

@@ -1,0 +1,416 @@
+{
+  "lang": "en",
+  "locale": "en_CA",
+  "hreflang": "en-CA",
+  "langName": "English",
+  "langShort": "EN",
+
+  "slugs": {
+    "home": "",
+    "features": "features",
+    "requestAccess": "request-access",
+    "faq": "faq",
+    "contact": "contact",
+    "privacy": "privacy",
+    "terms": "terms"
+  },
+
+  "meta": {
+    "siteName": "QuickAppraiser",
+    "ogImageAlt": "QuickAppraiser logo and name",
+    "pages": {
+      "home": {
+        "title": "QuickAppraiser · Your appraisals, from the order to the invoice",
+        "description": "The platform for residential appraisal firms in Canada: orders, inspections on the phone, the AIC0124 report, signing and billing in one place."
+      },
+      "features": {
+        "title": "Features · QuickAppraiser",
+        "description": "Orders and clients, scheduling and inspection, the AIC0124 report, quality review and signing, billing with provincial tax, team security and a lender API."
+      },
+      "requestAccess": {
+        "title": "Request access · QuickAppraiser",
+        "description": "Tell us about your appraisal firm and request access to QuickAppraiser. We contact you within 1 to 5 business days."
+      },
+      "faq": {
+        "title": "Frequently asked questions · QuickAppraiser",
+        "description": "Provinces covered, the AIC0124 form, working on a phone without signal, importing files from another platform, data access and onboarding."
+      },
+      "contact": {
+        "title": "Contact · QuickAppraiser",
+        "description": "Write to the QuickAppraiser team at quickappraisalpro@gmail.com, or request access for your appraisal firm."
+      },
+      "privacy": {
+        "title": "Privacy Policy · QuickAppraiser",
+        "description": "QuickAppraiser Privacy Policy."
+      },
+      "terms": {
+        "title": "Terms of Use · QuickAppraiser",
+        "description": "QuickAppraiser Terms of Use."
+      },
+      "notFound": {
+        "title": "Page not found · QuickAppraiser",
+        "description": "This page does not exist."
+      }
+    }
+  },
+
+  "a11y": {
+    "skip": "Skip to main content",
+    "homeLink": "QuickAppraiser, home",
+    "navLabel": "Main",
+    "footerNavLabel": "Footer",
+    "langLabel": "Language",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "currentLang": "current language"
+  },
+
+  "nav": {
+    "features": "Features",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "signIn": "Sign in",
+    "requestAccess": "Request access"
+  },
+
+  "footer": {
+    "tagline": "The platform for residential appraisal firms in Canada, from the order to the invoice.",
+    "colPlatform": "Platform",
+    "colCompany": "QuickAppraiser",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "signIn": "Sign in",
+    "features": "Features",
+    "faq": "FAQ",
+    "requestAccess": "Request access",
+    "langLabel": "Language"
+  },
+
+  "mock": {
+    "file": "File 26-0142",
+    "type": "Residential · Purchase",
+    "address": "27 Birch Hollow Lane, Ottawa ON",
+    "status": "In review",
+    "steps": [
+      { "title": "Order received", "detail": "From your website" },
+      { "title": "Inspection", "detail": "Thu 10:00 · 32 photos" },
+      { "title": "AIC0124", "detail": "Filled in from 6 documents" },
+      { "title": "Sign and invoice", "detail": "HST 13%" }
+    ],
+    "phoneStatus": "Offline",
+    "phoneTitle": "Inspection",
+    "phoneRows": ["Exterior", "Kitchen", "Basement"],
+    "phoneNote": "Saved on this phone. Syncs when the signal is back."
+  },
+
+  "home": {
+    "eyebrow": "For residential appraisal firms in Canada",
+    "titleLead": "The platform to run your firm’s appraisals,",
+    "titleEnd": "from the order to the invoice",
+    "subtitle": "Orders, inspections, the AIC0124 report, signing and billing in one place. For firm owners, managers and the appraisers who work with them.",
+    "ctaPrimary": "Request access",
+    "ctaSecondary": "See how it works",
+    "facts": ["AIC0124 form", "Reports in English and French", "HST · GST · QST", "Inspections without signal"],
+    "factsLabel": "In short",
+
+    "valuesEyebrow": "What changes",
+    "valuesTitle": "Made for the work between the order and the invoice",
+    "values": [
+      {
+        "icon": "pen",
+        "title": "Less time writing the report",
+        "body": "The AIC0124 is filled in from the documents already in the file. You start from a draft instead of a blank form, and spend your time on the opinion."
+      },
+      {
+        "icon": "folder",
+        "title": "The whole file in one place",
+        "body": "Order, client, appointment, inspection notes, photos, report and invoice stay together. Nobody digs through email for the latest version."
+      },
+      {
+        "icon": "receipt",
+        "title": "Get paid sooner",
+        "body": "Invoices go out with the right provincial tax, clients pay by card and reminders follow up for you. You can hold the report until it is paid."
+      },
+      {
+        "icon": "phone",
+        "title": "Work from your phone at the inspection",
+        "body": "The inspection form runs on the phone and keeps working without signal. It syncs once you are back in coverage."
+      }
+    ],
+
+    "howEyebrow": "How it works",
+    "howTitle": "Four steps, one file",
+    "howLead": "Every appraisal follows the same path, and everything stays in the file.",
+    "steps": [
+      {
+        "title": "Receive the order",
+        "body": "An order comes in from a client or from your website, and opens a file."
+      },
+      {
+        "title": "Schedule and inspect",
+        "body": "Book the appointment, see it on the map and in Google Calendar. Inspect on the phone, with or without signal."
+      },
+      {
+        "title": "The report is filled in from your documents",
+        "body": "The AIC0124 is prepared from the file’s documents. The appraiser reviews it and writes the opinion."
+      },
+      {
+        "title": "Review, sign, deliver and get paid",
+        "body": "Quality review, signing with a verification certificate, then the invoice with the right tax and card payment."
+      }
+    ],
+
+    "overviewEyebrow": "Features",
+    "overviewTitle": "Everything the file needs",
+    "overviewLink": "See all features",
+
+    "ctaTitle": "Tell us about your firm",
+    "ctaBody": "Send a request and we will contact you within 1 to 5 business days.",
+    "ctaButton": "Request access",
+    "ctaSignIn": "Already have an account?",
+    "ctaSignInLink": "Sign in"
+  },
+
+  "features": {
+    "eyebrow": "Features",
+    "title": "What QuickAppraiser does",
+    "lead": "Grouped the way work moves through your firm, from the order to the payment.",
+    "jumpLabel": "Feature groups",
+    "groups": [
+      {
+        "id": "orders",
+        "icon": "folder",
+        "title": "Orders and clients",
+        "intro": "Every appraisal starts as a file, and the file keeps everything.",
+        "items": [
+          { "title": "Appraisal files", "body": "Each order opens a file that holds the property, the client, the documents, the inspection, the report and the invoice." },
+          { "title": "Clients", "body": "Your clients and their contacts, linked to the files you do for them." },
+          { "title": "Leads from your website", "body": "Requests sent from your firm’s own website arrive as leads, ready to become files." },
+          { "title": "Recycle bin", "body": "A file deleted by mistake goes to the recycle bin first, and you can recover it from there." }
+        ]
+      },
+      {
+        "id": "scheduling",
+        "icon": "map",
+        "title": "Scheduling and inspection",
+        "intro": "Plan the day and inspect on site, signal or not.",
+        "items": [
+          { "title": "Appointment map", "body": "See your inspectors’ appointments on a map and plan the day around the driving." },
+          { "title": "Google Calendar", "body": "Appointments are pushed to Google Calendar, where your team already looks." },
+          { "title": "Inspection on the phone", "body": "Inspectors fill in the inspection on their phone. It works without signal and syncs when coverage returns." },
+          { "title": "Photos", "body": "Photos taken during the inspection are attached to the file." }
+        ]
+      },
+      {
+        "id": "report",
+        "icon": "doc",
+        "title": "The report",
+        "intro": "The form is prepared from your documents. The opinion stays the appraiser’s.",
+        "items": [
+          { "title": "The AIC0124 form", "body": "The official AIC0124 form is filled in from the documents in the file." },
+          { "title": "The appraiser’s opinion", "body": "The appraiser reviews it and writes their opinion. Adjustments, valuation and narrative remain the appraiser’s own work, and the appraiser signs it." },
+          { "title": "English and French", "body": "Produce reports in English or in French." },
+          { "title": "Your cover letter", "body": "Each firm uses its own cover letter." }
+        ]
+      },
+      {
+        "id": "quality",
+        "icon": "check",
+        "title": "Quality and signing",
+        "intro": "Catch what is missing before anything is signed.",
+        "items": [
+          { "title": "Quality review", "body": "Reports go through a quality review before they are signed." },
+          { "title": "Rules that flag gaps", "body": "Rules point out what is missing before the report goes out." },
+          { "title": "Independence declaration", "body": "The appraiser completes an independence declaration before signing." },
+          { "title": "Signing with a certificate", "body": "Reports are signed with a verification certificate." }
+        ]
+      },
+      {
+        "id": "billing",
+        "icon": "receipt",
+        "title": "Billing",
+        "intro": "Invoice correctly and get paid without chasing.",
+        "items": [
+          { "title": "Provincial tax", "body": "Invoices carry the tax of the property’s province (HST, GST or QST)." },
+          { "title": "Card payments", "body": "Clients pay by card through Stripe." },
+          { "title": "Automatic reminders", "body": "Reminders follow up on unpaid invoices for you." },
+          { "title": "Refunds", "body": "Issue a refund when one is needed." },
+          { "title": "Appraiser commissions", "body": "Keep track of your appraisers’ commissions." },
+          { "title": "Release on payment", "body": "If you choose, the report is released only once it is paid." }
+        ]
+      },
+      {
+        "id": "team",
+        "icon": "shield",
+        "title": "Team and security",
+        "intro": "The right access for each person, and only your firm’s data.",
+        "items": [
+          { "title": "Roles", "body": "Admin, appraiser and inspector roles decide who can do what." },
+          { "title": "Two-factor authentication", "body": "Protect sign-in with a second factor." },
+          { "title": "Single sign-on (SSO)", "body": "Your team signs in with your company directory." },
+          { "title": "Separate firm data", "body": "Each firm sees only its own data." },
+          { "title": "Audit trail", "body": "An audit trail records who did what, and when." }
+        ]
+      },
+      {
+        "id": "lenders",
+        "icon": "api",
+        "title": "For lenders",
+        "intro": "A direct way for lenders to look up their appraisals.",
+        "items": [
+          { "title": "Lender API", "body": "A lender can look up its appraisals through an API." }
+        ]
+      }
+    ],
+    "ctaTitle": "Want to see it with your team?",
+    "ctaBody": "Request access and we will contact you within 1 to 5 business days.",
+    "ctaButton": "Request access"
+  },
+
+  "request": {
+    "eyebrow": "Request access",
+    "title": "Request access for your firm",
+    "lead": "Tell us about your firm. We will contact you within 1 to 5 business days.",
+    "nextTitle": "What happens next",
+    "next": [
+      "We read your request.",
+      "We contact you within 1 to 5 business days.",
+      "We set up your firm’s access with you."
+    ],
+    "emailTitle": "Prefer email?",
+    "emailBody": "Write to us at",
+    "signInTitle": "Already a user?",
+    "signInLink": "Sign in to QuickAppraiser"
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact us",
+    "lead": "Questions about QuickAppraiser? Write to us, or send the form below to request access for your firm.",
+    "emailLabel": "Email",
+    "formTitle": "Request access",
+    "formLead": "We will contact you within 1 to 5 business days."
+  },
+
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "lead": "Short answers to the questions firms ask first.",
+    "items": [
+      {
+        "q": "Which provinces does it cover?",
+        "a": "QuickAppraiser is made for residential appraisal firms across Canada, in every province and territory. Invoices carry the tax of the property’s province or territory, and reports can be written in English or French."
+      },
+      {
+        "q": "Which form does it use?",
+        "a": "The AIC0124, the official form. It is filled in from the documents in the file. The appraiser then reviews it, writes the opinion and signs it."
+      },
+      {
+        "q": "Does it work on a phone and without signal?",
+        "a": "Yes. The inspection form works on the phone. Without signal, it keeps what you enter and syncs when coverage returns. Photos are attached to the file."
+      },
+      {
+        "q": "Can I bring my files from another platform?",
+        "a": "Yes, there is an import for files from another platform. Mention the platform you use today in your request."
+      },
+      {
+        "q": "Who can see my data?",
+        "a": "Each firm sees only its own data. Inside the firm, roles (Admin, appraiser, inspector) set what each person can do, sign-in can be protected with two-factor authentication, and an audit trail records who did what."
+      },
+      {
+        "q": "How long does onboarding take?",
+        "a": "It depends on the size of your team and on whether you are bringing files from another platform. Once you send a request, we contact you within 1 to 5 business days to plan it with you."
+      }
+    ],
+    "moreTitle": "Another question?",
+    "moreBody": "Write to us at"
+  },
+
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Use",
+    "pending": "[LEGAL TEXT PENDING]"
+  },
+
+  "notFound": {
+    "code": "404",
+    "title": "Page not found",
+    "body": "This page does not exist or has moved.",
+    "home": "Go to the home page"
+  },
+
+  "root": {
+    "title": "QuickAppraiser",
+    "choose": "Continue in English"
+  },
+
+  "form": {
+    "intro": "All fields are required unless marked optional.",
+    "optional": "optional",
+    "labels": {
+      "firm_name": "Firm name",
+      "province": "Province",
+      "city": "City",
+      "contact_first_name": "First name",
+      "contact_last_name": "Last name",
+      "contact_email": "Work email",
+      "contact_phone": "Phone",
+      "team_size": "How many people would use it?",
+      "message": "Anything we should know?",
+      "website": "Website"
+    },
+    "hints": {
+      "team_size": "Appraisers, inspectors and office staff.",
+      "message": "For example, the platform you use today."
+    },
+    "provincePrompt": "Choose a province or territory",
+    "consent": "I agree to be contacted about QuickAppraiser and accept the {privacy}.",
+    "consentLink": "Privacy Policy",
+    "newTab": "opens in a new tab",
+    "verificationLabel": "Verification",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "charCount": "{count} / {max}",
+    "summaryTitle": "Please check the following:",
+    "successTitle": "Request sent",
+    "success": "Thank you. We have received your request and will contact you within 1 to 5 business days.",
+    "errors": {
+      "firm_name": { "required": "Enter your firm’s name.", "tooLong": "Use 200 characters or fewer." },
+      "province": { "required": "Choose a province or territory.", "invalid": "Choose a province or territory from the list." },
+      "city": { "required": "Enter the city.", "tooLong": "Use 100 characters or fewer." },
+      "contact_first_name": { "required": "Enter your first name.", "tooLong": "Use 100 characters or fewer." },
+      "contact_last_name": { "required": "Enter your last name.", "tooLong": "Use 100 characters or fewer." },
+      "contact_email": { "required": "Enter your work email.", "invalid": "Enter an email address like name@yourfirm.ca." },
+      "contact_phone": { "required": "Enter a phone number.", "invalid": "Enter a phone number of 7 to 40 characters." },
+      "team_size": { "required": "Enter how many people would use it.", "invalid": "Enter a whole number from 1 to 1000." },
+      "message": { "tooLong": "Use 2000 characters or fewer." },
+      "consent": { "required": "Please tick the consent box." },
+      "turnstile": { "required": "Please wait for the verification to finish, then send again." },
+      "generic": { "required": "This field is required.", "invalid": "Check this value.", "tooLong": "This is too long." }
+    },
+    "server": {
+      "invalid": "Some fields need your attention.",
+      "consent": "Please tick the consent box.",
+      "challenge": "We could not verify you are not a robot. Please try again.",
+      "unavailable": "The form is not available right now. Please write to {email}.",
+      "tooMany": "Too many attempts. Please wait a minute.",
+      "later": "We could not send your request right now. Please try again in a few minutes."
+    },
+    "provinces": {
+      "AB": "Alberta",
+      "BC": "British Columbia",
+      "MB": "Manitoba",
+      "NB": "New Brunswick",
+      "NL": "Newfoundland and Labrador",
+      "NS": "Nova Scotia",
+      "NT": "Northwest Territories",
+      "NU": "Nunavut",
+      "ON": "Ontario",
+      "PE": "Prince Edward Island",
+      "QC": "Quebec",
+      "SK": "Saskatchewan",
+      "YT": "Yukon"
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "lang": "fr",
+  "locale": "fr_CA",
+  "hreflang": "fr-CA",
+  "langName": "Français",
+  "langShort": "FR",
+
+  "slugs": {
+    "home": "",
+    "features": "fonctionnalites",
+    "requestAccess": "demande-acces",
+    "faq": "faq",
+    "contact": "contact",
+    "privacy": "confidentialite",
+    "terms": "conditions"
+  },
+
+  "meta": {
+    "siteName": "QuickAppraiser",
+    "ogImageAlt": "Logo et nom de QuickAppraiser",
+    "pages": {
+      "home": {
+        "title": "QuickAppraiser · Vos évaluations, du mandat à la facture",
+        "description": "La plateforme des firmes d’évaluation résidentielle au Canada : mandats, inspections sur téléphone, rapport AIC0124, signature et facturation au même endroit."
+      },
+      "features": {
+        "title": "Fonctionnalités · QuickAppraiser",
+        "description": "Mandats et clients, planification et inspection, rapport AIC0124, révision de la qualité et signature, facturation avec la taxe provinciale, sécurité et API pour les prêteurs."
+      },
+      "requestAccess": {
+        "title": "Demander l’accès · QuickAppraiser",
+        "description": "Présentez votre firme d’évaluation et demandez l’accès à QuickAppraiser. Nous communiquons avec vous d’ici 1 à 5 jours ouvrables."
+      },
+      "faq": {
+        "title": "Questions fréquentes · QuickAppraiser",
+        "description": "Provinces couvertes, formulaire AIC0124, travail sur téléphone sans réseau, importation de dossiers d’une autre plateforme, accès aux données et mise en route."
+      },
+      "contact": {
+        "title": "Nous joindre · QuickAppraiser",
+        "description": "Écrivez à l’équipe QuickAppraiser à quickappraisalpro@gmail.com ou demandez l’accès pour votre firme d’évaluation."
+      },
+      "privacy": {
+        "title": "Politique de confidentialité · QuickAppraiser",
+        "description": "Politique de confidentialité de QuickAppraiser."
+      },
+      "terms": {
+        "title": "Conditions d’utilisation · QuickAppraiser",
+        "description": "Conditions d’utilisation de QuickAppraiser."
+      },
+      "notFound": {
+        "title": "Page introuvable · QuickAppraiser",
+        "description": "Cette page n’existe pas."
+      }
+    }
+  },
+
+  "a11y": {
+    "skip": "Passer au contenu principal",
+    "homeLink": "QuickAppraiser, accueil",
+    "navLabel": "Principal",
+    "footerNavLabel": "Pied de page",
+    "langLabel": "Langue",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "currentLang": "langue actuelle"
+  },
+
+  "nav": {
+    "features": "Fonctionnalités",
+    "faq": "FAQ",
+    "contact": "Nous joindre",
+    "signIn": "Se connecter",
+    "requestAccess": "Demander l’accès"
+  },
+
+  "footer": {
+    "tagline": "La plateforme des firmes d’évaluation résidentielle au Canada, du mandat à la facture.",
+    "colPlatform": "Plateforme",
+    "colCompany": "QuickAppraiser",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "contact": "Nous joindre",
+    "signIn": "Se connecter",
+    "features": "Fonctionnalités",
+    "faq": "FAQ",
+    "requestAccess": "Demander l’accès",
+    "langLabel": "Langue"
+  },
+
+  "mock": {
+    "file": "Dossier 26-0142",
+    "type": "Résidentiel · Achat",
+    "address": "27 Birch Hollow Lane, Ottawa ON",
+    "status": "En révision",
+    "steps": [
+      { "title": "Mandat reçu", "detail": "Depuis votre site Web" },
+      { "title": "Inspection", "detail": "jeu. 10 h · 32 photos" },
+      { "title": "AIC0124", "detail": "Rempli à partir de 6 documents" },
+      { "title": "Signature et facture", "detail": "TVH 13 %" }
+    ],
+    "phoneStatus": "Hors ligne",
+    "phoneTitle": "Inspection",
+    "phoneRows": ["Extérieur", "Cuisine", "Sous-sol"],
+    "phoneNote": "Enregistré sur ce téléphone. Synchronisé au retour du signal."
+  },
+
+  "home": {
+    "eyebrow": "Pour les firmes d’évaluation résidentielle au Canada",
+    "titleLead": "La plateforme pour gérer les évaluations de votre firme,",
+    "titleEnd": "du mandat à la facture",
+    "subtitle": "Mandats, inspections, rapport AIC0124, signature et facturation au même endroit. Pour les propriétaires et gestionnaires de firmes, et pour les évaluateurs qui y travaillent.",
+    "ctaPrimary": "Demander l’accès",
+    "ctaSecondary": "Voir comment ça fonctionne",
+    "facts": ["Formulaire AIC0124", "Rapports en français et en anglais", "TPS · TVQ · TVH", "Inspections sans réseau"],
+    "factsLabel": "En bref",
+
+    "valuesEyebrow": "Ce qui change",
+    "valuesTitle": "Pensée pour le travail entre le mandat et la facture",
+    "values": [
+      {
+        "icon": "pen",
+        "title": "Moins de temps à rédiger le rapport",
+        "body": "Le formulaire AIC0124 est rempli à partir des documents déjà au dossier. Vous partez d’une ébauche plutôt que d’un formulaire vide, et vous consacrez votre temps à l’opinion."
+      },
+      {
+        "icon": "folder",
+        "title": "Tout le dossier au même endroit",
+        "body": "Mandat, client, rendez-vous, notes d’inspection, photos, rapport et facture restent ensemble. Personne ne fouille ses courriels pour trouver la dernière version."
+      },
+      {
+        "icon": "receipt",
+        "title": "Être payé plus vite",
+        "body": "Les factures partent avec la bonne taxe provinciale, vos clients paient par carte et les rappels font le suivi à votre place. Vous pouvez retenir le rapport jusqu’au paiement."
+      },
+      {
+        "icon": "phone",
+        "title": "Travailler sur votre téléphone pendant l’inspection",
+        "body": "Le formulaire d’inspection fonctionne sur le téléphone, même sans réseau. Il se synchronise dès que vous retrouvez du signal."
+      }
+    ],
+
+    "howEyebrow": "Comment ça fonctionne",
+    "howTitle": "Quatre étapes, un seul dossier",
+    "howLead": "Chaque évaluation suit le même chemin, et tout reste au dossier.",
+    "steps": [
+      {
+        "title": "Recevoir le mandat",
+        "body": "Un mandat arrive d’un client ou de votre site Web et ouvre un dossier."
+      },
+      {
+        "title": "Planifier et inspecter",
+        "body": "Fixez le rendez-vous, voyez-le sur la carte et dans Google Agenda. Inspectez sur le téléphone, avec ou sans réseau."
+      },
+      {
+        "title": "Le rapport se remplit à partir de vos documents",
+        "body": "Le formulaire AIC0124 est préparé à partir des documents du dossier. L’évaluateur le révise et rédige son opinion."
+      },
+      {
+        "title": "Réviser, signer, livrer et être payé",
+        "body": "Révision de la qualité, signature avec certificat de vérification, puis facture avec la bonne taxe et paiement par carte."
+      }
+    ],
+
+    "overviewEyebrow": "Fonctionnalités",
+    "overviewTitle": "Tout ce dont le dossier a besoin",
+    "overviewLink": "Voir toutes les fonctionnalités",
+
+    "ctaTitle": "Parlez-nous de votre firme",
+    "ctaBody": "Envoyez une demande et nous communiquerons avec vous d’ici 1 à 5 jours ouvrables.",
+    "ctaButton": "Demander l’accès",
+    "ctaSignIn": "Vous avez déjà un compte?",
+    "ctaSignInLink": "Se connecter"
+  },
+
+  "features": {
+    "eyebrow": "Fonctionnalités",
+    "title": "Ce que fait QuickAppraiser",
+    "lead": "Regroupées selon le parcours du travail dans votre firme, du mandat au paiement.",
+    "jumpLabel": "Groupes de fonctionnalités",
+    "groups": [
+      {
+        "id": "mandats",
+        "icon": "folder",
+        "title": "Mandats et clients",
+        "intro": "Chaque évaluation commence par un dossier, et le dossier garde tout.",
+        "items": [
+          { "title": "Dossiers d’évaluation", "body": "Chaque mandat ouvre un dossier qui réunit la propriété, le client, les documents, l’inspection, le rapport et la facture." },
+          { "title": "Clients", "body": "Vos clients et leurs coordonnées, liés aux dossiers que vous réalisez pour eux." },
+          { "title": "Demandes reçues de votre site Web", "body": "Les demandes envoyées depuis le site Web de votre firme arrivent comme prospects, prêtes à devenir des dossiers." },
+          { "title": "Corbeille", "body": "Un dossier supprimé par erreur passe d’abord par la corbeille, d’où vous pouvez le récupérer." }
+        ]
+      },
+      {
+        "id": "planification",
+        "icon": "map",
+        "title": "Planification et inspection",
+        "intro": "Organisez la journée et inspectez sur place, avec ou sans réseau.",
+        "items": [
+          { "title": "Carte des rendez-vous", "body": "Voyez les rendez-vous de vos inspecteurs sur une carte et organisez la journée en fonction des déplacements." },
+          { "title": "Google Agenda", "body": "Les rendez-vous sont envoyés dans Google Agenda, là où votre équipe regarde déjà." },
+          { "title": "Inspection sur le téléphone", "body": "Les inspecteurs remplissent l’inspection sur leur téléphone. Le formulaire fonctionne sans réseau et se synchronise au retour du signal." },
+          { "title": "Photos", "body": "Les photos prises pendant l’inspection sont jointes au dossier." }
+        ]
+      },
+      {
+        "id": "rapport",
+        "icon": "doc",
+        "title": "Le rapport",
+        "intro": "Le formulaire est préparé à partir de vos documents. L’opinion reste celle de l’évaluateur.",
+        "items": [
+          { "title": "Le formulaire AIC0124", "body": "Le formulaire officiel AIC0124 est rempli à partir des documents du dossier." },
+          { "title": "L’opinion de l’évaluateur", "body": "L’évaluateur le révise et rédige son opinion. Les ajustements, la valeur et la narration demeurent son propre travail, et c’est l’évaluateur qui signe." },
+          { "title": "Français et anglais", "body": "Produisez vos rapports en français ou en anglais." },
+          { "title": "Votre lettre d’accompagnement", "body": "Chaque firme utilise sa propre lettre d’accompagnement." }
+        ]
+      },
+      {
+        "id": "qualite",
+        "icon": "check",
+        "title": "Qualité et signature",
+        "intro": "Repérez ce qui manque avant toute signature.",
+        "items": [
+          { "title": "Révision de la qualité", "body": "Les rapports passent par une révision de la qualité avant d’être signés." },
+          { "title": "Règles de contrôle", "body": "Des règles signalent ce qui manque avant que le rapport parte." },
+          { "title": "Déclaration d’indépendance", "body": "L’évaluateur remplit une déclaration d’indépendance avant de signer." },
+          { "title": "Signature avec certificat", "body": "Les rapports sont signés avec un certificat de vérification." }
+        ]
+      },
+      {
+        "id": "facturation",
+        "icon": "receipt",
+        "title": "Facturation",
+        "intro": "Facturez correctement et soyez payé sans courir après vos clients.",
+        "items": [
+          { "title": "Taxe de la province", "body": "Les factures appliquent la taxe de la province de la propriété (TVH, TPS ou TVQ)." },
+          { "title": "Paiement par carte", "body": "Vos clients paient par carte avec Stripe." },
+          { "title": "Rappels automatiques", "body": "Des rappels relancent les factures impayées à votre place." },
+          { "title": "Remboursements", "body": "Émettez un remboursement au besoin." },
+          { "title": "Commissions des évaluateurs", "body": "Faites le suivi des commissions de vos évaluateurs." },
+          { "title": "Remise après paiement", "body": "Si vous le souhaitez, le rapport n’est remis qu’une fois la facture payée." }
+        ]
+      },
+      {
+        "id": "equipe",
+        "icon": "shield",
+        "title": "Équipe et sécurité",
+        "intro": "Le bon accès pour chaque personne, et seulement les données de votre firme.",
+        "items": [
+          { "title": "Rôles", "body": "Les rôles administrateur, évaluateur et inspecteur déterminent qui peut faire quoi." },
+          { "title": "Authentification à deux facteurs", "body": "Protégez la connexion avec un deuxième facteur." },
+          { "title": "Authentification unique (SSO)", "body": "Votre équipe se connecte avec l’annuaire de l’entreprise." },
+          { "title": "Données séparées par firme", "body": "Chaque firme ne voit que ses propres données." },
+          { "title": "Piste d’audit", "body": "Une piste d’audit enregistre qui a fait quoi, et quand." }
+        ]
+      },
+      {
+        "id": "preteurs",
+        "icon": "api",
+        "title": "Pour les prêteurs",
+        "intro": "Un accès direct pour que les prêteurs consultent leurs évaluations.",
+        "items": [
+          { "title": "API pour les prêteurs", "body": "Un prêteur peut consulter ses évaluations au moyen d’une API." }
+        ]
+      }
+    ],
+    "ctaTitle": "Envie de l’essayer avec votre équipe?",
+    "ctaBody": "Demandez l’accès et nous communiquerons avec vous d’ici 1 à 5 jours ouvrables.",
+    "ctaButton": "Demander l’accès"
+  },
+
+  "request": {
+    "eyebrow": "Demander l’accès",
+    "title": "Demandez l’accès pour votre firme",
+    "lead": "Parlez-nous de votre firme. Nous communiquerons avec vous d’ici 1 à 5 jours ouvrables.",
+    "nextTitle": "La suite",
+    "next": [
+      "Nous lisons votre demande.",
+      "Nous communiquons avec vous d’ici 1 à 5 jours ouvrables.",
+      "Nous configurons avec vous l’accès de votre firme."
+    ],
+    "emailTitle": "Vous préférez le courriel?",
+    "emailBody": "Écrivez-nous à",
+    "signInTitle": "Déjà utilisateur?",
+    "signInLink": "Se connecter à QuickAppraiser"
+  },
+
+  "contact": {
+    "eyebrow": "Nous joindre",
+    "title": "Nous joindre",
+    "lead": "Des questions sur QuickAppraiser? Écrivez-nous, ou remplissez le formulaire ci-dessous pour demander l’accès pour votre firme.",
+    "emailLabel": "Courriel",
+    "formTitle": "Demander l’accès",
+    "formLead": "Nous communiquerons avec vous d’ici 1 à 5 jours ouvrables."
+  },
+
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "lead": "De courtes réponses aux questions que les firmes posent en premier.",
+    "items": [
+      {
+        "q": "Quelles provinces sont couvertes?",
+        "a": "QuickAppraiser est conçu pour les firmes d’évaluation résidentielle de partout au Canada, dans toutes les provinces et tous les territoires. Les factures appliquent la taxe de la province ou du territoire de la propriété, et les rapports peuvent être rédigés en français ou en anglais."
+      },
+      {
+        "q": "Quel formulaire est utilisé?",
+        "a": "Le formulaire officiel AIC0124. Il est rempli à partir des documents du dossier. L’évaluateur le révise ensuite, rédige son opinion et le signe."
+      },
+      {
+        "q": "Est-ce que ça fonctionne sur un téléphone, même sans réseau?",
+        "a": "Oui. Le formulaire d’inspection fonctionne sur le téléphone. Sans réseau, il conserve ce que vous saisissez et se synchronise au retour du signal. Les photos sont jointes au dossier."
+      },
+      {
+        "q": "Puis-je apporter mes dossiers d’une autre plateforme?",
+        "a": "Oui, une fonction d’importation permet d’apporter vos dossiers d’une autre plateforme. Indiquez dans votre demande celle que vous utilisez aujourd’hui."
+      },
+      {
+        "q": "Qui peut voir mes données?",
+        "a": "Chaque firme ne voit que ses propres données. Au sein de la firme, les rôles (administrateur, évaluateur, inspecteur) déterminent ce que chacun peut faire, la connexion peut être protégée par l’authentification à deux facteurs et une piste d’audit enregistre qui a fait quoi."
+      },
+      {
+        "q": "Combien de temps prend la mise en route?",
+        "a": "Cela dépend de la taille de votre équipe et de l’importation ou non de dossiers d’une autre plateforme. Après votre demande, nous communiquons avec vous d’ici 1 à 5 jours ouvrables pour la planifier avec vous."
+      }
+    ],
+    "moreTitle": "Une autre question?",
+    "moreBody": "Écrivez-nous à"
+  },
+
+  "legal": {
+    "privacyTitle": "Politique de confidentialité",
+    "termsTitle": "Conditions d’utilisation",
+    "pending": "[LEGAL TEXT PENDING]"
+  },
+
+  "notFound": {
+    "code": "404",
+    "title": "Page introuvable",
+    "body": "Cette page n’existe pas ou a été déplacée.",
+    "home": "Aller à la page d’accueil"
+  },
+
+  "root": {
+    "title": "QuickAppraiser",
+    "choose": "Continuer en français"
+  },
+
+  "form": {
+    "intro": "Tous les champs sont obligatoires, sauf indication contraire.",
+    "optional": "facultatif",
+    "labels": {
+      "firm_name": "Nom de la firme",
+      "province": "Province",
+      "city": "Ville",
+      "contact_first_name": "Prénom",
+      "contact_last_name": "Nom",
+      "contact_email": "Courriel professionnel",
+      "contact_phone": "Téléphone",
+      "team_size": "Combien de personnes l’utiliseraient?",
+      "message": "Autre chose à nous dire?",
+      "website": "Site Web"
+    },
+    "hints": {
+      "team_size": "Évaluateurs, inspecteurs et personnel de bureau.",
+      "message": "Par exemple, la plateforme que vous utilisez aujourd’hui."
+    },
+    "provincePrompt": "Choisissez une province ou un territoire",
+    "consent": "J’accepte qu’on communique avec moi au sujet de QuickAppraiser et j’accepte la {privacy}.",
+    "consentLink": "Politique de confidentialité",
+    "newTab": "s’ouvre dans un nouvel onglet",
+    "verificationLabel": "Vérification",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi en cours…",
+    "charCount": "{count} / {max}",
+    "summaryTitle": "Veuillez vérifier ce qui suit :",
+    "successTitle": "Demande envoyée",
+    "success": "Merci. Nous avons bien reçu votre demande et nous communiquerons avec vous d’ici 1 à 5 jours ouvrables.",
+    "errors": {
+      "firm_name": { "required": "Inscrivez le nom de votre firme.", "tooLong": "Utilisez au plus 200 caractères." },
+      "province": { "required": "Choisissez une province ou un territoire.", "invalid": "Choisissez une province ou un territoire dans la liste." },
+      "city": { "required": "Inscrivez la ville.", "tooLong": "Utilisez au plus 100 caractères." },
+      "contact_first_name": { "required": "Inscrivez votre prénom.", "tooLong": "Utilisez au plus 100 caractères." },
+      "contact_last_name": { "required": "Inscrivez votre nom.", "tooLong": "Utilisez au plus 100 caractères." },
+      "contact_email": { "required": "Inscrivez votre courriel professionnel.", "invalid": "Inscrivez un courriel valide, par exemple nom@votrefirme.ca." },
+      "contact_phone": { "required": "Inscrivez un numéro de téléphone.", "invalid": "Inscrivez un numéro de téléphone de 7 à 40 caractères." },
+      "team_size": { "required": "Indiquez combien de personnes l’utiliseraient.", "invalid": "Inscrivez un nombre entier de 1 à 1000." },
+      "message": { "tooLong": "Utilisez au plus 2000 caractères." },
+      "consent": { "required": "Veuillez cocher la case de consentement." },
+      "turnstile": { "required": "Veuillez attendre la fin de la vérification, puis envoyer de nouveau." },
+      "generic": { "required": "Ce champ est obligatoire.", "invalid": "Vérifiez cette valeur.", "tooLong": "Ce texte est trop long." }
+    },
+    "server": {
+      "invalid": "Certains champs demandent votre attention.",
+      "consent": "Veuillez cocher la case de consentement.",
+      "challenge": "Nous n’avons pas pu vérifier que vous n’êtes pas un robot. Veuillez réessayer.",
+      "unavailable": "Le formulaire n’est pas disponible pour le moment. Veuillez écrire à {email}.",
+      "tooMany": "Trop de tentatives. Veuillez patienter une minute.",
+      "later": "Nous n’avons pas pu envoyer votre demande pour le moment. Veuillez réessayer dans quelques minutes."
+    },
+    "provinces": {
+      "AB": "Alberta",
+      "BC": "Colombie-Britannique",
+      "MB": "Manitoba",
+      "NB": "Nouveau-Brunswick",
+      "NL": "Terre-Neuve-et-Labrador",
+      "NS": "Nouvelle-Écosse",
+      "NT": "Territoires du Nord-Ouest",
+      "NU": "Nunavut",
+      "ON": "Ontario",
+      "PE": "Île-du-Prince-Édouard",
+      "QC": "Québec",
+      "SK": "Saskatchewan",
+      "YT": "Yukon"
+    }
+  }
+}
